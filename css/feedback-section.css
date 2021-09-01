@@ -1,0 +1,176 @@
+.feedback-section {
+    margin-top: 215px;
+}
+
+.feedback-section__review-block {
+    margin-top: 123px;
+}
+
+.feedback-section__reviews {
+    background: url("../images/dots.png") no-repeat top right;
+    padding-top: 40px;
+}
+
+.feedback-section__review {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.feedback-section__review-text {
+    width: 38%;
+}
+
+.feedback-section__review-title {
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    line-height: 1.4;
+}
+
+.feedback-section__quote {
+    margin-top: 36px;
+    padding-right: 20px;
+}
+
+.feedback-section__quote-text {
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.015em;
+}
+
+.feedback-section__quote-author {
+    font-family: "Eina-SemiBold", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 32px;
+    letter-spacing: 0.015em;
+}
+
+.feedback-section__review-media {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.feedback-section__review-video {
+    border-radius: 20px;
+    height: 334px;
+    width: 604px;
+    border: 0;
+}
+
+.feedback-section__review-controls {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.feedback-section__review-controls-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+    gap: 32px;
+    padding-right: 82px;
+}
+
+.feedback-section_see-more-link {
+    font-family: "Eina-SemiBold", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.015em;
+}
+
+.feedback-section__control-button {
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 42px;
+    height: 42px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.feedback-section__control-button:hover {
+    border-color: var(--main-color);
+}
+
+.feedback-section__control-button_left {
+    background-image: url("../images/arrow-left.png");
+}
+
+.feedback-section__control-button_right {
+    background-image: url("../images/arrow-right.png");
+}
+
+.feedback-section__grades-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 0 130px;
+}
+
+.feedback-section__grades-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.feedback-section__grades-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.015em;
+}
+
+.feedback-section__grades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 80%;
+}
+
+.feedback-section__grade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.feedback-section__grade-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.feedback-section__stars {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.feedback-section__star {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("../images/star.png");
+}
+
+.feedback-section__rating {
+    font-size: 11px;
+    text-align: center;
+}
+
+.feedback-section__rating-score {
+    font-weight: 700;
+}

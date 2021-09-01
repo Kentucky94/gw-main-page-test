@@ -1,0 +1,115 @@
+.widgets-section {
+    padding-top: 305px;
+}
+
+.widgets-section__container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.widgets-section__subtitle {
+    margin: 30px 0 0 0;
+    max-width: 80%;
+}
+
+.widgets-section__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 52px;
+}
+
+.widgets-section__card {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    padding: 39px 30px;
+}
+
+.widgets-section__card-title::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+}
+
+.widgets-section__card-title_reward::before {
+    background-image: url("../images/rewardCardLogo.png");
+}
+
+.widgets-section__card-title_reviews::before {
+    background-image: url("../images/reviewsCardLogo.png");
+}
+
+.widgets-section__card-title_wishlist::before {
+    background-image: url("../images/wishlistCardLogo.png");
+}
+
+.widgets-section__card-title_instagram::before {
+    background-image: url("../images/instagramCardLogo.png");
+}
+
+.widgets-section__card-title_socialLogin::before {
+    background-image: url("../images/socialLoginCardLogo.png");
+}
+
+.widgets-section__card-features-list-item {
+    display: block;
+}
+
+.widgets-section__card-title {
+    font-family: "Eina-SemiBold", sans-serif;
+    font-size: 20px;
+}
+
+.widgets-section__card-text {
+    margin-top: 17px;
+    font-size: 13px;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.widgets-section__card-features {
+    margin-top: 30px;
+}
+
+.widgets-section__card-features-title {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.widgets-section__card-features-list {
+    margin: 22px 0;
+}
+
+.widgets-section__card-features-list-item {
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.widgets-section__card-features-list-item::before {
+    content: "";
+    background: url("../images/checkMark.png") no-repeat center center;
+    display: inline-block;
+    width: 12px;
+    height: 9px;
+    vertical-align: middle;
+    padding: 0 4px;
+}
+
+.widgets-section__card-link {
+    padding: 8px 0;
+    border-radius: 2px;
+}
+
+.widgets-section__card-link:hover {
+    background-color: var(--main-color);
+    color: #fff;
+    text-decoration: none;
+}

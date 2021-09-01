@@ -1,0 +1,131 @@
+.promo-section__container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 636px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.promo-section__block_text {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo-section__block_image {
+    overflow: hidden;
+    position: relative;
+}
+
+.promo-section__image-wrapper {
+    display: inline-block;
+    left: 1px;
+    top: 1%;
+    position: absolute;
+}
+
+.promo-section__block_image {
+    width: 65%;
+    /* background: url("../images/devices-no-dots.png") no-repeat center center; */
+}
+
+.promo-section_pulse-container {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.promo-section_pulse-container_tablet_left {
+    left: 302px;
+    top: 164px;
+}
+
+.promo-section_pulse-container_tablet_upper {
+    left: 487px;
+    top: 109px;
+}
+
+.promo-section_pulse-container_tablet_lower {
+    left: 516px;
+    top: 479px;
+}
+
+.promo-section_pulse-container_phone {
+    left: 294px;
+    top: 463px;
+}
+
+.promo-section_pulse-container_pos {
+    left: 763px;
+    top: 466px;
+}
+
+.promo-section_pulse-circle {
+    left: 50%;
+    top: 50%;
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #11ABEC;
+    z-index: 1;
+}
+
+.promo-section_pulse-ring {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 10px solid #70bcdd;
+    opacity: 0;
+    animation: pulsate 1.5s ease-in;
+    -webkit-animation: pulsate 1.5s ease-in;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.promo-section__heading {
+    font-family: "Eina-SemiBold", sans-serif;
+    font-size: 42px;
+    line-height: 1.5;
+}
+
+.promo-section__buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 19px;
+    margin-top: 25px;
+}
+
+.promo-section__button {
+    text-align: left;
+    padding: 11px 31px;
+}
+
+.promo-section__button_youtube {
+    background: url("../images//youtubeLogo.png") no-repeat 23px center;
+    padding: 0 23px 0 55px;
+}
+
+.promo-section__text {
+    margin-top: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+}
+
+@keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}

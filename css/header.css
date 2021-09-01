@@ -1,0 +1,39 @@
+.header {
+    padding: 23px 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin-top: 2px;
+}
+
+.header__nav {
+    margin-left: 150px;
+}
+
+.header__nav-list {
+    display: flex;
+    font-size: 16px;
+}
+
+.header__nav-list-item {
+    margin: 0 34px 6px 0;
+}
+
+.header__nav-link {
+    vertical-align: top;
+}
+
+.header__nav-list-item_products::after {
+    content: "\f107";
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 6px;
+    background: url("../images/arrow-down.png") no-repeat center center;
+}

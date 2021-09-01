@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css//misc.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/promo-section.css">
+    <link rel="stylesheet" href="./css/brands-slider.css">
+    <link rel="stylesheet" href="./css/widgets-section.css">
+    <link rel="stylesheet" href="./css/steps-section.css">
+    <link rel="stylesheet" href="./css/feedback-section.css">
+    <link rel="stylesheet" href="./css/integration-section.css">
+    <link rel="stylesheet" href="./css/demo-section.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script 
+        src="https://code.jquery.com/jquery-3.6.0.min.js" 
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+<body>
+<header class="header">
+    <div class="header__container container">
+        <a href=""  class="header__logo">
+            <img src="./images/Growave.svg" alt="Logotype" class="header__logo-img">
+        </a>
+
+        <nav itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-list-item header__nav-list-item_products">
+                    <a href="#" class="header__nav-link">Products</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a itemprop="url" href="/plus" class="header__nav-link">Shopify Plus</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a itemprop="url" href="/pricing" class="header__nav-link">Pricing</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a itemprop="url" href="#" class="header__nav-link">Log in</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__demo-buttons demo-buttons">
+            <a href="#" class="button demo-button demo-button_dark">Get started</a>
+            <a href="#" class="button demo-button demo-button_light">Book a demo</a>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="promo-section">
+        <div class="promo-section__container container">
+            <div class="promo-section__block promo-section__block_text">
+                <h1 class="promo-section__heading">All essential tools <br>to grow your business in one place</h1>
+                <div class="promo-section__buttons">
+                    <button class="button promo-section__button">Start trial</button>
+                    <button class="button promo-section__button promo-section__button_youtube">Watch video</button>
+                </div>
+                <p class="promo-section__text">Try Growave free for 14 days, no credit card required. </p>
+            </div>
+            <div class="promo-section__block promo-section__block_image">
+                <div class="promo-section__image-wrapper">
+                    <img class="promo-section__image" src="./images/Devices.png" alt="mainImg">
+                    <div class="promo-section_pulse-container promo-section_pulse-container_tablet_left">
+                        <div class="promo-section_pulse-circle"></div>
+                        <div class="promo-section_pulse-ring"></div>
+                    </div>
+                    <div class="promo-section_pulse-container promo-section_pulse-container_tablet_upper">
+                        <div class="promo-section_pulse-circle"></div>
+                        <div class="promo-section_pulse-ring"></div>
+                    </div>
+                    <div class="promo-section_pulse-container promo-section_pulse-container_tablet_lower">
+                        <div class="promo-section_pulse-circle"></div>
+                        <div class="promo-section_pulse-ring"></div>
+                    </div>
+                    <div class="promo-section_pulse-container promo-section_pulse-container_phone">
+                        <div class="promo-section_pulse-circle"></div>
+                        <div class="promo-section_pulse-ring"></div>
+                    </div>
+                    <div class="promo-section_pulse-container promo-section_pulse-container_pos">
+                        <div class="promo-section_pulse-circle"></div>
+                        <div class="promo-section_pulse-ring"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="brands-slider">
+        <div class="container brands-slider_container">
+            <ul class="brands-slider__list" id="sliderContainer">
+                <li class="brands-slider__list-item">
+                    <a href="#" class="brands-slider__link brands-slider__link_crocs">
+                        <img src="./images/crocsLogo.png" alt="crocsLogo">
+                    </a>
+                </li>
+                <li class="brands-slider__list-item">
+                    <a href="#" class="brands-slider__link brands-slider__link_crocs">
+                        <img src="./images/crocsLogo.png" alt="crocsLogo">
+                    </a>
+                </li>
+                <li class="brands-slider__list-item">
+                    <a href="#" class="brands-slider__link brands-slider__link_crocs">
+                        <img src="./images/crocsLogo.png" alt="crocsLogo">
+                    </a>
+                </li>
+                <li class="brands-slider__list-item">
+                    <a href="#" class="brands-slider__link brands-slider__link_crocs">
+                        <img src="./images/crocsLogo.png" alt="crocsLogo">
+                    </a>
+                </li>
+                <li class="brands-slider__list-item">
+                    <a href="#" class="brands-slider__link brands-slider__link_crocs">
+                        <img src="./images/crocsLogo.png" alt="crocsLogo">
+                    </a>
+                </li>
+                <li class="brands-slider__list-item">
+                    <a href="#" class="brands-slider__link brands-slider__link_crocs">
+                        <img src="./images/crocsLogo.png" alt="crocsLogo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="widgets-section">
+        <div class="container widgets-section__container">
+            <h3 class="widgets-section__title section-title">All-in-one Marketing Platform</h3>
+            <p class="widgets-section__subtitle section-subtitle">
+                A bundle of powerful tools for photo reviews, wishlists, loyalty programs, referrals, gift cards, and UGC.
+            </p>
+            <div class="widgets-section__cards">
+                <div class="widgets-section__card">
+                    <h5 class="widgets-section__card-title widgets-section__card-title_reviews">
+                        Reviews
+                    </h5>
+                    <p class="widgets-section__card-text">
+                        Collect reviews on autopilot. Showcase reviews across channels: website, social, Google search, Google Shopping.
+                    </p>
+                    <div class="widgets-section__card-features">
+                        <p class="widgets-section__card-features-title">
+                            Popular Features
+                        </p>
+                        <ul class="widgets-section__card-features-list">
+                            <li class="widgets-section__card-features-list-item">
+                                Photo reviews
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Rewarding for reviews
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Automated review requests
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button widgets-section__card-link">Learn more</a>
+                </div>
+
+                <div class="widgets-section__card">
+                    <h5 class="widgets-section__card-title widgets-section__card-title_reward">
+                        Loyalty and Rewards
+                    </h5>
+                    <p class="widgets-section__card-text">
+                        Increase lifetime value and customer engagement, give your best customers the VIP treatments, boost brand loyalty.
+                    </p>
+                    <div class="widgets-section__card-features">
+                        <p class="widgets-section__card-features-title">
+                            Popular Features
+                        </p>
+                        <ul class="widgets-section__card-features-list">
+                            <li class="widgets-section__card-features-list-item">
+                                Loyalty program
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Gift cards
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Referral program
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button widgets-section__card-link">Learn more</a>
+                </div>
+
+                <div class="widgets-section__card">
+                    <h5 class="widgets-section__card-title widgets-section__card-title_wishlist">
+                        Wishlist
+                    </h5>
+                    <p class="widgets-section__card-text">
+                        Simplify the buying process, send personalized reminders with powerful buying triggers: drop in price, back in stock, on sale, running out of stock.
+                    </p>
+                    <div class="widgets-section__card-features">
+                        <p class="widgets-section__card-features-title">
+                            Popular Features
+                        </p>
+                        <ul class="widgets-section__card-features-list">
+                            <li class="widgets-section__card-features-list-item">
+                                Creating wishlists & sorting
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Rewards for sharing
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Wishlist specific promos
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button widgets-section__card-link">Learn more</a>
+                </div>
+
+                <div class="widgets-section__card">
+                    <h5 class="widgets-section__card-title widgets-section__card-title_instagram">
+                        Instagram and UGC
+                    </h5>
+                    <p class="widgets-section__card-text">
+                        Use the power of Instagram and UGC to convert your store visitors into customers, increase product discovery to boost sales.
+                    </p>
+                    <div class="widgets-section__card-features">
+                        <p class="widgets-section__card-features-title">
+                            Popular Features
+                        </p>
+                        <ul class="widgets-section__card-features-list">
+                            <li class="widgets-section__card-features-list-item">
+                                Homepage carousel
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Product page galleries
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Tagging products
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button widgets-section__card-link">Learn more</a>
+                </div>
+
+                <div class="widgets-section__card">
+                    <h5 class="widgets-section__card-title widgets-section__card-title_socialLogin">
+                        Social Login
+                    </h5>
+                    <p class="widgets-section__card-text">
+                        Simplify account registration, enable one-click login through: Facebook, Google, Twitter, Yahoo, Tumblr, Amazon, Line.
+                    </p>
+                    <div class="widgets-section__card-features">
+                        <p class="widgets-section__card-features-title">
+                            Popular Features
+                        </p>
+                        <ul class="widgets-section__card-features-list">
+                            <li class="widgets-section__card-features-list-item">
+                                Collecting valuable data
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Persistent cart
+                            </li>
+                            <li class="widgets-section__card-features-list-item">
+                                Multipass login
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button widgets-section__card-link">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps-section">
+        <div class="container steps-section__container">
+            <h3 class="steps-section__title section-title">
+                How can Growave help you scale your brand
+            </h3>
+
+            <div class="steps-section__cards">
+                <div class="steps-section__card steps-section__card_replace">
+                    <h4 class="steps-section__card-title">
+                        Replace 4-7 apps:
+                    </h4>
+                    <div class="steps-section__card-text">
+                        Growave brings everything - reviews, wishlist, rewards, gift cards, - together in one place for a reasonable price.
+                    </div>
+                </div>
+
+                <div class="steps-section__card steps-section__card_automate">
+                    <h4 class="steps-section__card-title">
+                        Automate your marketing:
+                    </h4>
+                    <div class="steps-section__card-text">
+                        Convert, drive sales on autopilot, and retain customers post-purchase.
+                    </div>
+                </div>
+
+                <div class="steps-section__card steps-section__card_grow">
+                    <h4 class="steps-section__card-title">
+                        Grow your business:
+                    </h4>
+                    <div class="steps-section__card-text">
+                        Growave has all tools to expand your brand regardless where you are at.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback-section">
+        <div class="container feedback-section__container">
+            <h3 class="feedback-section__title section-title">
+                Trusted by 13000+ brands globally
+            </h3>
+
+            <div class="feedback-section__review-block">
+                <div class="feedback-section__reviews">
+                    <div class="feedback-section__review">
+                        <div class="feedback-section__review-text">
+                            <h4 class="feedback-section__review-title">See how Growave can help you build sustainable business</h4>
+                            <div class="feedback-section__quote">
+                                <p class="feedback-section__quote-text">
+                                    “We love this app! Such a great team of developers and amazing customer support. So happy that
+                                    Growave offers everything all in one... plus more”.
+                                </p>
+                                <div class="feedback-section__quote-author">
+                                    <p class="feedback-section__quote-author-name">
+                                        Tracey Hocking
+                                    </p>
+                                    <p class="feedback-section__quote-author-position">
+                                        CEO and Creative Director of Lazybones
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="feedback-section__review-media">
+                            <iframe class="feedback-section__review-video" src="https://www.youtube.com/embed/cJSxQ0-FuNc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback-section__review-controls">
+                    <div class="feedback-section__review-controls-wrapper">
+                        <a class="feedback-section_see-more-link" href="#">see more testimonials</a>
+                        <button class="feedback-section__control-button feedback-section__control-button_left"></button>
+                        <button class="feedback-section__control-button feedback-section__control-button_right"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feedback-section__grades-wrapper">
+                <div class="feedback-section__grades-info">
+                    <p class="feedback-section__grades-text">And thousands more<br>
+                        of 5 star reviews:</p>
+                </div>
+                <div class="feedback-section__grades">
+                    <div class="feedback-section__grade">
+                        <div class="feedback-section__grade-logo-wrapper">
+                            <img class="feedback-section__grade-logo feedback-section__grade-logo_shopify" src="./images/shopifyGradeLogo.png" alt="ShopifyLogo">
+                        </div>
+                        <div class="feedback-section__stars">
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                        </div>
+                        <div class="feedback-section__rating">
+                            <b class="feedback-section__rating-score">4.9</b>
+                            <span class="feedback-section__rating-divider">/</span>
+                            <span class="feedback-section__rating-max-score">5</span>
+                        </div>
+                    </div>
+                    <div class="feedback-section__grade">
+                        <div class="feedback-section__grade-logo-wrapper">
+                            <img class="feedback-section__grade-logo feedback-section__grade-logo_capterra" src="./images/capterraGradeLogo.png" alt="CapterraLogo">
+                        </div>
+                        <div class="feedback-section__stars">
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                        </div>
+                        <div class="feedback-section__rating">
+                            <b class="feedback-section__rating-score">4.9</b>
+                            <span class="feedback-section__rating-divider">/</span>
+                            <span class="feedback-section__rating-max-score">5</span>
+                        </div>
+                    </div>
+                    <div class="feedback-section__grade">
+                        <div class="feedback-section__grade-logo-wrapper">
+                            <img class="feedback-section__grade-logo feedback-section__grade-logo_trustRadius" src="./images/trustRadiusGradeLogo.png" alt="trustRadiusLogo">
+                        </div>
+                        <div class="feedback-section__stars">
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                        </div>
+                        <div class="feedback-section__rating">
+                            <b class="feedback-section__rating-score">10</b>
+                            <span class="feedback-section__rating-divider">/</span>
+                            <span class="feedback-section__rating-max-score">10</span>
+                        </div>
+                    </div>
+                    <div class="feedback-section__grade">
+                        <div class="feedback-section__grade-logo-wrapper">
+                            <img class="feedback-section__grade-logo feedback-section__grade-logo_q2" src="./images/q2GradeLogo.png" alt="Q2Logo">
+                        </div>
+                        <div class="feedback-section__stars">
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                            <div class="feedback-section__star"></div>
+                        </div>
+                        <div class="feedback-section__rating">
+                            <b class="feedback-section__rating-score">5.0</b>
+                            <span class="feedback-section__rating-divider">/</span>
+                            <span class="feedback-section__rating-max-score">5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="integrations-section">
+        <div class="container integrations-section__container">
+            <h3 class="integration-section__title section-title">
+                Integrations
+            </h3>
+            <p class="integration-section__subtitle section-subtitle">
+                Seamlessly connect Growave with the tools you love
+            </p>
+            <div class="integration-section__partners">
+                <div class="integration-section__partner">
+                    <img class="integration-section__partner-logo" src="./images/omnisendLogo.png" alt="omnisendLogo">
+                </div>
+                <div class="integration-section__partner">
+                    <img class="integration-section__partner-logo" src="./images/gemPagesLogo.png" alt="gemPagesLogo">
+                </div>
+                <div class="integration-section__partner">
+                    <img class="integration-section__partner-logo" src="./images/pageflyLogo.png" alt="pageFlyLogo">
+                </div>
+                <div class="integration-section__partner">
+                    <img class="integration-section__partner-logo" src="./images/klaviyoLogo.png" alt="klaviyoLogo">
+                </div>
+                <div class="integration-section__partner">
+                    <img class="integration-section__partner-logo" src="./images/pushOwlLogo.png" alt="pushOwlLogo">
+                </div>
+                <div class="integration-section__partner">
+                    <img class="integration-section__partner-logo" src="./images/omnisendLogo.png" alt="omnisendLogo">
+                </div>
+                <div class="integration-section__partner">
+                    <img class="integration-section__partner-logo" src="./images/omnisendLogo.png" alt="omnisendLogo">
+                </div>
+            </div>
+            <button class="integrations-section__more-button">more integrations</button>
+        </div>
+    </section>
+    <section class="demo-section">
+        <div class="container demo-section__container">
+            <h3 class="demo-section__title section-title">
+                Growth starts here
+            </h3>
+            <p class="demo-section__subtitle section-subtitle">
+                Join 13 000 Shopify merchants who use Growave for marketing
+            </p>
+            <div class="demo-section__demo-buttons demo-buttons">
+                <a href="#" class="button demo-button demo-button_dark">Get started</a>
+                <a href="#" class="button demo-button demo-button_light">Book a demo</a>
+            </div>
+            <p class="demo-section__info">
+                Free 14 - day trial. Easy setup. Cancel anytime
+            </p>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container footer__container">
+        <div class="footer__column footer__column_info">
+            <a href="#" class="footer__logo">
+                <img src="./images/gwFooterLogo.png" alt="gw-footer-logo">
+            </a>
+            <p class="footer__description">
+                Growave is the all-in-one Shopify marketing platform with powerful tools for photo reviews, wishlists,
+                 loyalty programs, referrals, gift cards, and UGC.
+            </p>
+            <div class="footer__social-links">
+                <a class="footer__social-link footer__social-link_twt" href="#"></a>
+                <a class="footer__social-link footer__social-link_linkedIn" href="#"></a>
+                <a class="footer__social-link footer__social-link_fb" href="#"></a>
+                <a class="footer__social-link footer__social-link_insta" href="#"></a>
+            </div>
+        </div>
+        <div class="footer__column footer__column_lists">
+            <div class="footer__list">
+                <h5 class="footer__list-title">Products</h5>
+                <ul class="footer__link-list">
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Loyalty and Rewards</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Reviews</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Wishlists</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Social Login</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Instagram</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Social Sharing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__list">
+                <h5 class="footer__list-title">Resources</h5>
+                <ul class="footer__link-list">
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Shopify Plus</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Blog</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Customer Stories</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Knowledge Base</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Contact Us</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Pricing</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Early Stage Startups</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Integrations</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Live Demo</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__list">
+                <h5 class="footer__list-title">Company</h5>
+                <ul class="footer__link-list">
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Partners</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Terms</a>
+                    </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__column footer__column_app">
+            <a class="footer__app-btn button" href="#">Shopify AppStore</a>
+            <img src="./images/gdprLogo.png" alt="gdprLogo">
+        </div>
+    </div>
+</footer>
+
+<script>
+    const sliderContainer = $("#sliderContainer");
+
+    // sliderContainer.slick({
+    //     adaptiveHeight: true,
+    //     arrows: true,
+    //     dots: false,
+    //     infinite: true,
+    //     slidesToShow: 5
+    // });
+</script>
+</body>
+</html>

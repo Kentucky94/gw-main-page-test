@@ -1,0 +1,56 @@
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer__column_info {
+    width: 23%;
+}
+
+.footer__description {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.footer__social-link {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 10px;
+}
+
+.footer__social-link_twt {
+    background-image: url("../images/twitterLogo.png");
+}
+
+.footer__social-link_linkedIn {
+    background-image: url("../images/linkedInLogo.png");
+}
+
+.footer__social-link_fb {
+    background-image: url("../images/fbLogo.png");
+}
+
+.footer__social-link_insta {
+    background-image: url("../images/instaLogo.png");
+}
+
+.footer__column_lists {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.footer__list-title {
+    font-family: "Eina-SemiBold", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer__column_app {
+    display: flex;
+    flex-direction: column;
+}

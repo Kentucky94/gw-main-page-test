@@ -1,0 +1,44 @@
+.steps-section {
+    margin-top: 190px;
+}
+
+.steps-section__cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.steps-section__card {
+    width: 29.5%;
+    padding: 100px 33px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+}
+
+.steps-section__card_replace {
+    background-image: url("../images/icon-allInOne.png");
+}
+
+.steps-section__card_automate {
+    background-image: url("../images/icon-marketing.png");
+}
+
+.steps-section__card_grow {
+    background-image: url("../images/icon-business.png");
+}
+
+.steps-section__card-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.steps-section__card-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 24px;
+}
