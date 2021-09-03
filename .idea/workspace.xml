@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21aae585-de55-41c5-b1dc-10f48d08dd0f" name="Default Changelist" comment="" />
+    <list default="true" id="21aae585-de55-41c5-b1dc-10f48d08dd0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/demo-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/demo-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/feedback-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/feedback-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/integration-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/integration-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/misc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/promo-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/promo-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/steps-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/steps-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/widgets-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/widgets-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow-right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/MainPageFinal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/studio/MainPageFinal.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studio/MainPageFinal2.png" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -16,11 +39,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1xFWHWirfL14r1pUqZSc19JHvUl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -52,11 +80,28 @@
       <option name="presentableId" value="Default" />
       <updated>1629951228346</updated>
       <workItem from="1629951229483" duration="23561000" />
-      <workItem from="1630473560997" duration="8226000" />
+      <workItem from="1630473560997" duration="21649000" />
+      <workItem from="1630497800191" duration="2783000" />
+      <workItem from="1630506271573" duration="890000" />
+      <workItem from="1630551695200" duration="29155000" />
+      <workItem from="1630638030698" duration="19420000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

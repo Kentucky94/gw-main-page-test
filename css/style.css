@@ -21,15 +21,12 @@
 body {
     font-family: "Eina-Regular", sans-serif;
     color: var(--main-color);
+    padding-bottom: 80px;
 }
 
 a {
     color: inherit;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 ul {
@@ -45,8 +42,8 @@ button {
 
 .container {
     margin: 0 auto;
-    max-width: 1280px;
-    padding: 0 20px;
+    max-width: 1400px;
+    padding: 0 80px;
 }
 
 .button {
@@ -72,7 +69,99 @@ button {
     line-height: 1.8;
 }
 
-/* temporary */
-body {
-    padding-bottom: 400px;
+.demo-buttons {
+    display: flex;
+    gap: 11px;
+}
+
+.demo-button {
+    padding: 12px 0;
+    width: 122px;
+    height: 44px;
+}
+
+.demo-button_dark {
+    background: var(--main-color);
+    color: #fff;
+}
+
+@media screen and (max-width: 1168px) {
+    .button {
+        font-size: 11px;
+    }
+
+    .demo-button {
+        width: 97px;
+        height: 35px;
+        padding: 10px 0;
+    }
+
+    .section-title {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    .section-title {
+        text-align: left;
+        font-size: 37px;
+    }
+
+    .section-subtitle {
+        text-align: left;
+    }
+
+    .header__demo-buttons {
+        display: none;
+    }
+
+    .demo-button {
+        width: 150px;
+        height: 54px;
+        font-size: 17px;
+        padding: 17px 0;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .section-title {
+        text-align: left;
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 18px;
+    }
+
+    .demo-button {
+        width: 113px;
+        height: 41px;
+        font-size: 13px;
+        padding: 11px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .demo-button {
+        width: 150px;
+        height: 54px;
+        font-size: 17px;
+    }
 }

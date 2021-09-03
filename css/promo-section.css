@@ -16,6 +16,9 @@
 .promo-section__block_image {
     overflow: hidden;
     position: relative;
+    width: 65%;
+    background: url("../images/Devices.png") no-repeat;
+    background-position: right -32px center;
 }
 
 .promo-section__image-wrapper {
@@ -23,11 +26,6 @@
     left: 1px;
     top: 1%;
     position: absolute;
-}
-
-.promo-section__block_image {
-    width: 65%;
-    /* background: url("../images/devices-no-dots.png") no-repeat center center; */
 }
 
 .promo-section_pulse-container {
@@ -38,27 +36,27 @@
 }
 
 .promo-section_pulse-container_tablet_left {
-    left: 302px;
+    right: 464px;
     top: 164px;
 }
 
 .promo-section_pulse-container_tablet_upper {
-    left: 487px;
+    right: 279px;
     top: 109px;
 }
 
 .promo-section_pulse-container_tablet_lower {
-    left: 516px;
+    right: 252px;
     top: 479px;
 }
 
 .promo-section_pulse-container_phone {
-    left: 294px;
+    right: 473px;
     top: 463px;
 }
 
 .promo-section_pulse-container_pos {
-    left: 763px;
+    right: 1px;
     top: 466px;
 }
 
@@ -92,6 +90,10 @@
     line-height: 1.5;
 }
 
+.promo-section__heading-break_mobile {
+    display: none;
+}
+
 .promo-section__buttons {
     display: flex;
     justify-content: flex-start;
@@ -105,7 +107,7 @@
 }
 
 .promo-section__button_youtube {
-    background: url("../images//youtubeLogo.png") no-repeat 23px center;
+    background: url("../images/youtubeLogo.png") no-repeat 23px center;
     padding: 0 23px 0 55px;
 }
 
@@ -128,4 +130,190 @@
     0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
     50% {opacity: 1.0;}
     100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+@media screen and (max-width: 1168px) {
+    .promo-section__container {
+        min-height: 525px;
+    }
+
+    .promo-section__heading {
+        font-size: 33px;
+        padding-right: 5px;
+        margin-top: 12px;
+    }
+
+    .promo-section__buttons {
+        gap: 17px;
+        margin-top: 20px;
+    }
+
+    .promo-section__button {
+        padding: 9px 24px;
+    }
+
+    .promo-section__button_youtube {
+        background: url("../images/youtubeLogo.svg") no-repeat 16px center;
+        padding: 0px 20px 0 43px;
+        background-size: 18px;
+    }
+
+    .promo-section__text {
+        font-size: 11px;
+        margin-top: 14px;
+    }
+    
+    .promo-section__block_image {
+        background-size: 676px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .promo-section__container {
+        min-height: unset;
+    }
+
+    .promo-section__block_text,
+    .promo-section__block_image {
+        width: 100%;
+    }
+
+    .promo-section__block_text {
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+
+    .promo-section__heading {
+        font-size: 43px;
+    }
+
+    .promo-section__block_image {
+        min-height: 300px;
+    }
+
+    .promo-section__heading-break {
+        display: none;
+    }
+
+    .promo-section__heading-break_mobile {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .promo-section__buttons {
+        gap: 22px;
+        margin-top: 7px;
+    }
+
+    .promo-section__button {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .promo-section__button_trial {
+        text-align: center;
+        font-family: "Eina-SemiBold", sans-serif;
+        background: var(--main-color);
+        color: #fff;
+    }
+
+    .promo-section__button_youtube {
+        background-size: 34px;
+        background-position: 23px center;
+        padding: 0 20px 0 66px;
+    }
+
+    .promo-section__text {
+        font-size: 13px;
+    }
+
+    .promo-section__block_image {
+        min-height: 730px;
+        background-size: 1020px;
+        background-position: right -44px center;
+    }
+}
+
+
+@media screen and (max-width: 784px) {
+    .promo-section__block_text {
+        padding-top: 4px;
+    }
+
+    .promo-section__heading {
+        font-size: 32px;
+    }
+
+    .promo-section__buttons {
+        gap: 15px;
+    }
+
+    .promo-section__button {
+        width: 151px;
+        height: 39px;
+        font-size: 13px;
+    }
+
+    .promo-section__button_youtube {
+        background-size: 24px;
+        background-position: 17px center;
+        padding: 0 20px 0 50px;
+    }
+
+    .promo-section__text {
+        font-size: 10px;
+        margin-top: 9px;
+    }
+
+    .promo-section__block_image {
+        min-height: 592px;
+        background-size: 765px;
+        background-position: right -19px center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .promo-section__heading {
+        font-size: 36px;
+        padding-right: 0;
+    }
+
+    .promo-section__heading-break_mobile {
+        display: none;
+    }
+
+    .promo-section__buttons {
+        gap: unset;
+        justify-content: space-between;
+    }
+
+    .promo-section__button {
+        width: 48%;
+        height: 46px;
+        font-size: 16px;
+    }
+
+    .promo-section__button_youtube {
+        background-size: 25px;
+        background-position: 15px center;
+        padding: 0 15px 0 50px;
+    }
+
+    .promo-section__text {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .promo-section__block_image {
+        background-image: url("../images/DevicesTabletUpper.png");
+        background-position: top 25px center;
+        background-size: contain;
+        min-height: 350px;
+    }
+
+    .promo-section_pulse-container {
+        display: none;
+    }
 }

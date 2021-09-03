@@ -7,7 +7,6 @@
 }
 
 .feedback-section__reviews {
-    background: url("../images/dots.png") no-repeat top right;
     padding-top: 40px;
 }
 
@@ -38,6 +37,7 @@
     margin-top: 20px;
     line-height: 1.4;
     letter-spacing: 0.015em;
+    color: #39647E;
 }
 
 .feedback-section__quote-author {
@@ -49,6 +49,7 @@
 }
 
 .feedback-section__review-media {
+    background: url("../images/dots.png") no-repeat top right, url("../images/blue-media-bg.png") no-repeat bottom right;
     width: 60%;
     display: flex;
     justify-content: flex-end;
@@ -100,17 +101,17 @@
 }
 
 .feedback-section__control-button_left {
-    background-image: url("../images/arrow-left.png");
+    background-image: url("../images/control-arrow-left.png");
 }
 
 .feedback-section__control-button_right {
-    background-image: url("../images/arrow-right.png");
+    background-image: url("../images/control-arrow-right.png");
 }
 
 .feedback-section__grades-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 145px;
     padding: 0 130px;
 }
 
@@ -156,14 +157,14 @@
 
 .feedback-section__stars {
     text-align: center;
-    margin: 5px 0;
+    margin-top: 4px;
 }
 
 .feedback-section__star {
     display: inline-block;
     width: 17px;
     height: 17px;
-    background: url("../images/star.png");
+    background: url("../images/star.png") no-repeat center center;
 }
 
 .feedback-section__rating {
@@ -173,4 +174,285 @@
 
 .feedback-section__rating-score {
     font-weight: 700;
+}
+
+@media screen and (max-width: 1168px) {
+    .feedback-section {
+        margin-top: 168px;
+    }
+
+    .feedback-section__review-block {
+        margin-top: 92px;
+    }
+
+    .feedback-section__review-title {
+        font-size: 29px;
+    }
+
+    .feedback-section__quote {
+        margin-top: 28px;
+    }
+
+    .feedback-section__quote-text {
+        font-size: 18px;
+    }
+
+    .feedback-section__quote-author {
+        font-size: 14px;
+    }
+
+    .feedback-section__review-video {
+        width: 482px;
+        height: 267px;
+    }
+
+    .feedback-section_see-more-link {
+        font-size: 14px;
+    }
+
+    .feedback-section__review-controls-wrapper {
+        padding-right: 69px;
+        gap: 35px;
+    }
+
+    .feedback-section__control-button {
+        width: 30px;
+        height: 30px;
+        background-size: 19px;
+    }
+
+    .feedback-section__grades-wrapper {
+        padding: 0 95px;
+        margin-top: 110px;
+    }
+
+    .feedback-section__grade-logo {
+        height: 18px;
+    }
+
+    .feedback-section__grade-logo_q2 {
+        height: 30px;
+    }
+
+    .feedback-section__grades-text {
+        font-size: 10px;
+    }
+
+    .feedback-section__stars {
+        margin-top: 0;
+    }
+
+    .feedback-section__star {
+        background-size: 13px;
+        width: 13px;
+        height: 14px;
+    }
+
+    .feedback-section__rating {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .feedback-section {
+        margin-top: 183px;
+    }
+
+    .feedback-section__review-block {
+        margin-top: 62px;
+    }
+
+    .feedback-section__review-title {
+        font-size: 27px;
+    }
+
+    .feedback-section__quote-text {
+        font-size: 17px;
+    }
+
+    .feedback-section__quote-author {
+        margin-top: 26px;
+    }
+
+    .feedback-section__review-video {
+        width: 460px;
+        height: 254px;
+    }
+
+    .feedback-section_see-more-link {
+        font-size: 20px;
+    }
+
+    .feedback-section__review-controls {
+        margin-top: 15px;
+    }
+
+    .feedback-section__review-controls-wrapper {
+        padding-right: 42px;
+        gap: 45px;
+    }
+
+    .feedback-section__control-button {
+        width: 42px;
+        height: 42px;
+        background-size: unset;
+    }
+
+    .feedback-section__grades-wrapper {
+        margin-top: 93px;
+        padding: 0 70px;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    .feedback-section {
+        margin-top: 128px;
+    }
+
+    .feedback-section__review-media {
+        background-position: right -36px top 12px;
+        background-size: 130px;
+    }
+
+    .feedback-section__review-block {
+        margin-top: 36px;
+    }
+
+    .feedback-section__review-title {
+        font-size: 21px;
+    }
+
+    .feedback-section__quote {
+        margin-top: 15px;
+    }
+
+    .feedback-section__quote-text {
+        margin-top: 0;
+        font-size: 13px;
+    }
+
+    .feedback-section__review-video {
+        width: 345px;
+        height: 191px;
+    }
+
+    .feedback-section__quote-author {
+        margin-top: 22px;
+        font-size: 10px;
+    }
+
+    .feedback-section__review-controls-wrapper {
+        padding-right: 27px;
+        gap: 37px;
+    }
+
+    .feedback-section_see-more-link {
+        font-size: 15px;
+    }
+
+    .feedback-section__control-button {
+        width: 30px;
+        height: 30px;
+        background-size: 19px;
+    }
+
+    .feedback-section__grades-wrapper {
+        margin-top: 72px;
+        padding: 0 60px;
+    }
+
+    .feedback-section__grades-text {
+        font-size: 7px;
+    }
+
+    .feedback-section__grade-logo-wrapper {
+        height: 13px;
+    }
+
+    .feedback-section__grade-logo {
+        height: 13px;
+    }
+
+    .feedback-section__star {
+        background-size: 10px;
+        width: 8px;
+        height: 10px;
+    }
+
+    .feedback-section__rating {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .feedback-section {
+        margin-top: 148px;
+    }
+
+    .feedback-section__review {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback-section__review-block {
+        margin-top: 19px;
+    }
+
+    .feedback-section__review-text,
+    .feedback-section__review-media {
+        width: 100%;
+    }
+
+    .feedback-section__review-media {
+        padding-top: 58px;
+    }
+
+    .feedback-section__review-title {
+        font-size: 22px;
+    }
+
+    .feedback-section__quote {
+        padding-right: 0;
+    }
+
+    .feedback-section__quote-text {
+        font-size: 18px;
+    }
+
+    .feedback-section__quote-author {
+        font-size: 14px;
+    }
+
+    .feedback-section__review-controls {
+        margin-top: 19px;
+    }
+
+    .feedback-section__review-controls-wrapper {
+        width: 100%;
+        padding-right: 0;
+        gap: 35px;
+        justify-content: flex-start;
+    }
+
+    .feedback-section_see-more-link {
+        font-size: 14px;
+    }
+
+    .feedback-section__grades-wrapper {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 79px;
+        gap: 23px;
+    }
+
+    .feedback-section__grades-info,
+    .feedback-section__grades {
+        width: 100%;
+    }
+
+    .feedback-section__grades-text {
+        font-size: 11px;
+        text-align: center;
+    }
 }

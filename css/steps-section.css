@@ -1,9 +1,9 @@
 .steps-section {
-    margin-top: 190px;
+    margin-top: 192px;
 }
 
 .steps-section__cards {
-    margin-top: 100px;
+    margin-top: 99px;
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -17,6 +17,8 @@
     align-items: center;
     background-repeat: no-repeat;
     background-position: center 10%;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
 }
 
 .steps-section__card_replace {
@@ -34,11 +36,123 @@
 .steps-section__card-title {
     font-size: 24px;
     font-weight: 500;
-    margin: 30px 0;
+    margin: 33px 0 30px;
+}
+
+.steps-section__card-line {
+    height: 0;
+    width: 133px;
+    border-top: 2px solid var(--main-color);
+    display: none;
 }
 
 .steps-section__card-text {
     font-size: 16px;
     line-height: 1.6;
     margin-top: 24px;
+}
+
+@media screen and (max-width: 1168px) {
+    .steps-section {
+        margin-top: 157px;
+    }
+
+    .steps-section__cards {
+        margin-top: 70px;
+        gap: 26px;
+    }
+
+    .steps-section__card {
+        background-size: 62px;
+        padding: 100px 27px 20px;
+    }
+
+    .steps-section__card-title {
+        font-size: 19px;
+        margin: 14px 0 17px;
+    }
+
+    .steps-section__card-text {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .steps-section {
+        margin-top: 169px;
+    }
+
+    .steps-section__cards {
+        justify-content: space-between;
+        gap: unset;
+        margin-top: 96px;
+    }
+
+    .steps-section__card {
+        width: 32%;
+    }
+
+    .steps-section__card-title {
+        font-size: 20px;
+        margin: 6px 0 24px;
+    }
+
+    .steps-section__card-line {
+        display: block;
+    }
+
+    .steps-section__card-text {
+        margin-top: 17px;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    .steps-section {
+        margin-top: 100px;
+    }
+
+    .steps-section__cards {
+        margin-top: 60px;
+    }
+
+    .steps-section__card {
+        background-size: 50px;
+        padding: 84px 19px 20px;
+    }
+
+    .steps-section__card-title {
+        margin: 6px 0 18px;
+        font-size: 15px;
+    }
+
+    .steps-section__card-line {
+        width: 100px;
+    }
+
+    .steps-section__card-text {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .steps-section__cards {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 90px;
+        gap: 80px;
+    }
+
+    .steps-section__card {
+        width: 84%;
+        background-size: 68px;
+    }
+
+    .steps-section__card-title {
+        font-size: 20px;
+        margin: 26px 0 26px;
+    }
+
+    .steps-section__card-text {
+        font-size: 13px;
+    }
 }

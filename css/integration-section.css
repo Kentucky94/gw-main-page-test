@@ -1,5 +1,5 @@
 .integrations-section {
-    margin-top: 188px;
+    margin-top: 201px;
 }
 
 .integrations-section__container {
@@ -15,10 +15,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     overflow: hidden;
-    height: 106px;
-    margin-top: 55px;
+    margin-top: 58px;
     box-sizing: border-box;
-    transition: 1s;
 }
 
 .integration-section__partner {
@@ -32,15 +30,107 @@
     border-radius: 13px;
 }
 
-.integrations-section__more-button {
+.integrations-section__more-link {
+    display: inline-block;
     text-transform: uppercase;
     text-decoration: underline;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 49px;
 }
 
-.integrations-section__more-button::before {
-    content: "";
-    background: url("../images//arrow-down.png") no-repeat center center;
-    display: inline-block;
-    width: 12px;
-    height: 7px;
+@media screen and (max-width: 1168px) {
+    .integrations-section {
+        margin-top: 160px;
+    }
+
+    .integration-section__subtitle {
+        font-size: 19px;
+        margin-top: 25px;
+    }
+
+    .integration-section__partner-logo {
+        width: 85%;
+    }
+
+    .integration-section__partners {
+        margin-top: 37px;
+    }
+
+    .integrations-section__more-link {
+        font-size: 11px;
+        margin-top: 27px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .integrations-section {
+        margin-top: 130px;
+        text-align: left;
+    }
+
+    .integrations-section__container {
+        text-align: left;
+    }
+
+    .integration-section__subtitle {
+        font-size: 24px;
+    }
+
+    .integrations-section__more-link {
+        font-size: 17px;
+        margin-top: 53px;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    .integrations-section {
+        margin-top: 100px;
+    }
+
+    .integration-section__subtitle {
+        font-size: 18px;
+        margin-top: 19px;
+    }
+
+    .integration-section__partners {
+        margin-top: 21px;
+    }
+
+    .integrations-section__more-link {
+        font-size: 13px;
+        margin-top: 19px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .integrations-section {
+        margin-top: 110px;
+    }
+
+    .integrations-section__container {
+        text-align: center;
+    }
+
+    .integration-section__subtitle {
+        font-size: 20px;
+        margin-top: 17px;
+    }
+
+    .integration-section__partner {
+        width: 50%;
+    }
+
+    .integration-section__partners {
+        margin-top: 50px;
+    }
+
+    .integration-section__partner {
+        width: 48%;
+        height: 84px;
+    }
+
+    .integrations-section__more-link {
+        margin-top: 29px;
+    }
 }

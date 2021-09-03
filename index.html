@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css//misc.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/promo-section.css">
     <link rel="stylesheet" href="./css/brands-slider.css">
@@ -30,20 +29,51 @@
 <body>
 <header class="header">
     <div class="header__container container">
-        <a href=""  class="header__logo">
+        <a href="#"  class="header__logo">
             <img src="./images/Growave.svg" alt="Logotype" class="header__logo-img">
         </a>
+
+        <div class="header__mobile-controls">
+            <a itemprop="url" href="#" class="header__mobile-controls-link">Log in</a>
+            <button class="header__mobile-controls-button button"></button>
+        </div>
 
         <nav itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="header__nav">
             <ul class="header__nav-list">
                 <li class="header__nav-list-item header__nav-list-item_products">
                     <a href="#" class="header__nav-link">Products</a>
+
+                    <div class="header__products-list-wrapper">
+                        <ul class="header__products-list">
+                            <li class="header__products-list-item">
+                                <a href="" class="header__products-list-link">Reviews</a>
+                            </li>
+                            <li class="header__products-list-item">
+                                <a href="" class="header__products-list-link">Loyalty and Rewards</a>
+                            </li>
+                            <li class="header__products-list-item">
+                                <a href="" class="header__products-list-link">Wishlist</a>
+                            </li>
+                            <li class="header__products-list-item">
+                                <a href="" class="header__products-list-link">Instagram</a>
+                            </li>
+                            <li class="header__products-list-item">
+                                <a href="" class="header__products-list-link">Social Login</a>
+                            </li>
+                            <li class="header__products-list-item">
+                                <a href="" class="header__products-list-link">Integrations</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="header__nav-list-item">
                     <a itemprop="url" href="/plus" class="header__nav-link">Shopify Plus</a>
                 </li>
                 <li class="header__nav-list-item">
                     <a itemprop="url" href="/pricing" class="header__nav-link">Pricing</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a itemprop="url" href="/blog" class="header__nav-link">Blog</a>
                 </li>
                 <li class="header__nav-list-item">
                     <a itemprop="url" href="#" class="header__nav-link">Log in</a>
@@ -57,44 +87,41 @@
         </div>
     </div>
 </header>
-<main>
-    <section class="promo-section">
+    <main class="promo-section">
         <div class="promo-section__container container">
             <div class="promo-section__block promo-section__block_text">
-                <h1 class="promo-section__heading">All essential tools <br>to grow your business in one place</h1>
+                <h1 class="promo-section__heading">All essential tools <br class="promo-section__heading-break">to grow your <br class="promo-section__heading-break_mobile">business in one place</h1>
                 <div class="promo-section__buttons">
-                    <button class="button promo-section__button">Start trial</button>
+                    <button class="button promo-section__button promo-section__button_trial">Start trial</button>
                     <button class="button promo-section__button promo-section__button_youtube">Watch video</button>
                 </div>
                 <p class="promo-section__text">Try Growave free for 14 days, no credit card required. </p>
             </div>
             <div class="promo-section__block promo-section__block_image">
-                <div class="promo-section__image-wrapper">
-                    <img class="promo-section__image" src="./images/Devices.png" alt="mainImg">
-                    <div class="promo-section_pulse-container promo-section_pulse-container_tablet_left">
-                        <div class="promo-section_pulse-circle"></div>
-                        <div class="promo-section_pulse-ring"></div>
-                    </div>
-                    <div class="promo-section_pulse-container promo-section_pulse-container_tablet_upper">
-                        <div class="promo-section_pulse-circle"></div>
-                        <div class="promo-section_pulse-ring"></div>
-                    </div>
-                    <div class="promo-section_pulse-container promo-section_pulse-container_tablet_lower">
-                        <div class="promo-section_pulse-circle"></div>
-                        <div class="promo-section_pulse-ring"></div>
-                    </div>
-                    <div class="promo-section_pulse-container promo-section_pulse-container_phone">
-                        <div class="promo-section_pulse-circle"></div>
-                        <div class="promo-section_pulse-ring"></div>
-                    </div>
-                    <div class="promo-section_pulse-container promo-section_pulse-container_pos">
-                        <div class="promo-section_pulse-circle"></div>
-                        <div class="promo-section_pulse-ring"></div>
-                    </div>
+
+                <div class="promo-section_pulse-container promo-section_pulse-container_tablet_left">
+                    <div class="promo-section_pulse-circle"></div>
+                    <div class="promo-section_pulse-ring"></div>
+                </div>
+                <div class="promo-section_pulse-container promo-section_pulse-container_tablet_upper">
+                    <div class="promo-section_pulse-circle"></div>
+                    <div class="promo-section_pulse-ring"></div>
+                </div>
+                <div class="promo-section_pulse-container promo-section_pulse-container_tablet_lower">
+                    <div class="promo-section_pulse-circle"></div>
+                    <div class="promo-section_pulse-ring"></div>
+                </div>
+                <div class="promo-section_pulse-container promo-section_pulse-container_phone">
+                    <div class="promo-section_pulse-circle"></div>
+                    <div class="promo-section_pulse-ring"></div>
+                </div>
+                <div class="promo-section_pulse-container promo-section_pulse-container_pos">
+                    <div class="promo-section_pulse-circle"></div>
+                    <div class="promo-section_pulse-ring"></div>
                 </div>
             </div>
         </div>
-    </section>
+    </main>
 
     <div class="brands-slider">
         <div class="container brands-slider_container">
@@ -284,6 +311,7 @@
                     <h4 class="steps-section__card-title">
                         Replace 4-7 apps:
                     </h4>
+                    <div class="steps-section__card-line"></div>
                     <div class="steps-section__card-text">
                         Growave brings everything - reviews, wishlist, rewards, gift cards, - together in one place for a reasonable price.
                     </div>
@@ -293,6 +321,7 @@
                     <h4 class="steps-section__card-title">
                         Automate your marketing:
                     </h4>
+                    <div class="steps-section__card-line"></div>
                     <div class="steps-section__card-text">
                         Convert, drive sales on autopilot, and retain customers post-purchase.
                     </div>
@@ -302,6 +331,7 @@
                     <h4 class="steps-section__card-title">
                         Grow your business:
                     </h4>
+                    <div class="steps-section__card-line"></div>
                     <div class="steps-section__card-text">
                         Growave has all tools to expand your brand regardless where you are at.
                     </div>
@@ -455,14 +485,8 @@
                 <div class="integration-section__partner">
                     <img class="integration-section__partner-logo" src="./images/pushOwlLogo.png" alt="pushOwlLogo">
                 </div>
-                <div class="integration-section__partner">
-                    <img class="integration-section__partner-logo" src="./images/omnisendLogo.png" alt="omnisendLogo">
-                </div>
-                <div class="integration-section__partner">
-                    <img class="integration-section__partner-logo" src="./images/omnisendLogo.png" alt="omnisendLogo">
-                </div>
             </div>
-            <button class="integrations-section__more-button">more integrations</button>
+            <a href="/pages/integrations" class="integrations-section__more-link">+ more integrations</a>
         </div>
     </section>
     <section class="demo-section">
@@ -477,17 +501,17 @@
                 <a href="#" class="button demo-button demo-button_dark">Get started</a>
                 <a href="#" class="button demo-button demo-button_light">Book a demo</a>
             </div>
-            <p class="demo-section__info">
-                Free 14 - day trial. Easy setup. Cancel anytime
+            <p class="demo-section__trial-info">
+                Free 14 - day trial. Easy setup. Cancel any time
             </p>
         </div>
     </section>
 </main>
-<footer>
+<footer class="footer">
     <div class="container footer__container">
         <div class="footer__column footer__column_info">
             <a href="#" class="footer__logo">
-                <img src="./images/gwFooterLogo.png" alt="gw-footer-logo">
+                <img class="footer__logo-img" src="./images/gwFooterLogo.png" alt="gw-footer-logo">
             </a>
             <p class="footer__description">
                 Growave is the all-in-one Shopify marketing platform with powerful tools for photo reviews, wishlists,
@@ -528,28 +552,16 @@
                 <h5 class="footer__list-title">Resources</h5>
                 <ul class="footer__link-list">
                     <li class="footer__link-list-item">
-                        <a href="#" class="footer__link">Shopify Plus</a>
-                    </li>
-                    <li class="footer__link-list-item">
-                        <a href="#" class="footer__link">Blog</a>
-                    </li>
-                    <li class="footer__link-list-item">
                         <a href="#" class="footer__link">Customer Stories</a>
                     </li>
                     <li class="footer__link-list-item">
                         <a href="#" class="footer__link">Knowledge Base</a>
                     </li>
                     <li class="footer__link-list-item">
-                        <a href="#" class="footer__link">Contact Us</a>
+                        <a href="#" class="footer__link">Compare</a>
                     </li>
                     <li class="footer__link-list-item">
-                        <a href="#" class="footer__link">Pricing</a>
-                    </li>
-                    <li class="footer__link-list-item">
-                        <a href="#" class="footer__link">Early Stage Startups</a>
-                    </li>
-                    <li class="footer__link-list-item">
-                        <a href="#" class="footer__link">Integrations</a>
+                        <a href="#" class="footer__link">Recommended Themes</a>
                     </li>
                     <li class="footer__link-list-item">
                         <a href="#" class="footer__link">Live Demo</a>
@@ -571,12 +583,15 @@
                     <li class="footer__link-list-item">
                         <a href="#" class="footer__link">Privacy</a>
                     </li>
+                    <li class="footer__link-list-item">
+                        <a href="#" class="footer__link">Contact Us</a>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="footer__column footer__column_app">
-            <a class="footer__app-btn button" href="#">Shopify AppStore</a>
-            <img src="./images/gdprLogo.png" alt="gdprLogo">
+            <a class="footer__app-btn button" href="#"></a>
+            <img class="footer__gdpr-img" src="./images/gdprLogo.png" alt="gdprLogo">
         </div>
     </div>
 </footer>

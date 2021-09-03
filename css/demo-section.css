@@ -1,6 +1,135 @@
+.demo-section {
+    margin-top: 286px;
+}
+
+.demo-section__title {
+    font-size: 42px;
+    line-height: 49px;
+}
+
 .demo-section__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 200px 0;
+}
+
+.demo-section__subtitle {
+    margin-top: 30px;
+    letter-spacing: 0.0015em;
+}
+
+.demo-section__demo-buttons {
+    margin-top: 34px;
+    gap: 20px;
+}
+
+.demo-section__trial-info {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 180%;
+    letter-spacing: 0.015em;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 1168px) {
+    .demo-section {
+        margin-top: 220px;
+    }
+
+    .demo-section__title {
+        font-size: 34px;
+    }
+
+    .demo-section__subtitle {
+        margin-top: 21px;
+        font-size: 19px;
+    }
+
+    .demo-section__demo-buttons {
+        margin-top: 28px;
+    }
+
+    .demo-section__trial-info {
+        margin-top: 14px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .demo-section {
+        margin-top: 183px;
+    }
+
+    .demo-section__title {
+        font-size: 45px;
+    }
+
+    .demo-section__subtitle {
+        font-size: 26px;
+    }
+
+    .demo-section__subtitle {
+        margin-top: 26px;
+        font-size: 26px;
+    }
+
+    .demo-section__demo-buttons {
+        margin-top: 30px;
+    }
+
+    .demo-section__trial-info {
+        margin-top: 9px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    .demo-section {
+        margin-top: 129px;
+    }
+
+    .demo-section__title {
+        font-size: 34px;
+    }
+
+    .demo-section__subtitle {
+        margin-top: 12px;
+        font-size: 20px;
+    }
+
+    .demo-section__demo-buttons {
+        margin-top: 23px;
+    }
+
+    .demo-section__trial-info {
+        margin-top: 7px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .demo-section {
+        margin-top: 154px;
+    }
+
+    .demo-section__subtitle {
+        margin-top: 13px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .demo-section__demo-buttons {
+        width: 100%;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 39px;
+    }
+
+    .demo-section__trial-info {
+        margin-top: 7px;
+        font-size: 12px;
+    }
 }

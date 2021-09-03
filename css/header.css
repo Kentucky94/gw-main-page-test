@@ -1,5 +1,5 @@
 .header {
-    padding: 23px 0;
+    padding: 20px 0;
 }
 
 .header__container {
@@ -12,6 +12,24 @@
     margin-top: 2px;
 }
 
+.header__mobile-controls {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__mobile-controls-link {
+    font-size: 18px;
+}
+
+.header__mobile-controls-button {
+    background: url("../images/burgerMenuIcon.png") no-repeat center center;
+    width: 32px;
+    height: 32px;
+    border: none;
+}
+
 .header__nav {
     margin-left: 150px;
 }
@@ -22,7 +40,53 @@
 }
 
 .header__nav-list-item {
-    margin: 0 34px 6px 0;
+    margin-right: 34px;
+    padding: 13px 0 21px;
+}
+
+.header__nav-list-item:hover {
+    font-family: "Eina-SemiBold", sans-serif;
+}
+
+.header__nav-list-item_products {
+    position: relative;
+}
+
+.header__nav-list-item_products:hover .header__products-list-wrapper {
+    display: inline-block;
+}
+
+.header__products-list-wrapper {
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    left: 43%;
+    transform: translateX(-50%);
+    top: 100%;
+    padding: 0 62px;
+    width: 323px;
+    z-index: 10;
+}
+
+.header__products-list {
+    border-top: 3px solid var(--main-color);
+    padding: 25px 0;
+}
+
+.header__products-list-item {
+    font-family: "Eina-Regular", sans-serif;
+    padding: 10px 0 17px;
+    width: 100%;
+}
+
+.header__products-list-link {
+    display: inline-block;
+    width: 100%;
+}
+
+.header__products-list-link:hover {
+    font-family: "Eina-SemiBold", sans-serif;
+    background: url("../images/arrow-right.png") no-repeat right center;
 }
 
 .header__nav-link {
@@ -36,4 +100,68 @@
     width: 10px;
     height: 6px;
     background: url("../images/arrow-down.png") no-repeat center center;
+}
+
+@media screen and (max-width: 1168px) {
+    .header {
+        padding: 0;
+    }
+
+    .header__logo-img {
+        height: 23px;
+    }
+
+    .header__nav-list {
+        font-size: 13px;
+    }
+
+    .header__nav-list-item {
+        padding: 26px 0 31px 0;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .header {
+        padding: 27px 0;
+    }
+
+    .header__container {
+        padding: 0 28px;
+    }
+
+    .header__logo-img {
+        height: 25px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__mobile-controls {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        padding: 9px 0;
+    }
+
+    .header__container {
+        padding: 0 16px;
+    }
+
+    .header__logo-img {
+        height: 20px;
+    }
+
+    .header__mobile-controls-link {
+        display: none;
+    }
+
+    .header__mobile-controls-button {
+        background-size: 25px;
+        width: 39px;
+        height: 39px;
+    }
 }
